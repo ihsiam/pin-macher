@@ -1,0 +1,122 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #10101B;
+    padding: 20px;
+}
+
+.row{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.pin-generator, .col-md-6{
+    width: 45%;
+    height: 500px;
+    border-radius: 15px;
+    background: #222436;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type='text']{
+    background-color: #3D4153;
+    padding: 10px 0px;
+    color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #858299;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+}
+
+input[type='text']:focus {
+    background-color: #3D4153;
+    color: #fff;
+    font-size: 20px;
+}
+
+.generate-btn{
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    border-radius: 50%;
+    border: 8px solid #39458C;
+    background-color: #495BC3;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.generate-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.calc-body{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-button-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    width: 20%;
+    background: #425062;
+    color: #fff;
+    padding: 20px 0;
+    margin: 5px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-btn{
+    border: none;
+    margin-top: 20px;
+    padding: 10px 120px;
+    border-radius: 5px;
+    background: #495BC3;
+    color: #fff;
+}
+
+
+.notify-section{
+    width: 35%;
+    margin: 0px auto;
+}
+
+.notify {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background: #222436;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
